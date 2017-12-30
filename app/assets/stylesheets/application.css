@@ -13,3 +13,31 @@
  *= require_tree .
  *= require_self
  */
+
+
+
+ body {
+   background-color: purple;
+   color:black;
+   text-align: center;
+}
+
+.middle {
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  text-align: center;
+  transform: translate(-50%, -50%)
+
+}
+
+.title {
+ 
+  text-align: center;
+  padding-top: 10%;
+  font-family: 'Shrikhand', cursive;
+  color:blue;
+
+  
+
+}

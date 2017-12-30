@@ -16,7 +16,7 @@ ActiveRecord::Schema.define(version: 20171226224053) do
   enable_extension "plpgsql"
 
   create_table "campaigns", force: :cascade do |t|
-    t.string "to_email", null: false
+    t.string "to_email", null: false 
     t.string "subject"
     t.text "body"
     t.datetime "created_at", null: false
